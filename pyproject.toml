@@ -1,0 +1,52 @@
+[tool.briefcase]
+project_name = "multiple-user-peer2profit"
+bundle = "com.vachanmn123.multiple-user-peer2profit"
+version = "0.0.1"
+url = "https://github.com/vachanmn123/multiple-user-peer2profit"
+license = "MIT license"
+author = 'Vachan MN'
+author_email = "vachanmn123@gmail.com"
+
+[tool.briefcase.app.multiple-user-peer2profit]
+formal_name = "Multiple User Peer2Profit"
+description = "Allow multiple users to use the same peer2profit account and reward them according to time spent"
+icon = "src/multiple_user_peer2profit/resources/multiple-user-peer2profit"
+sources = ['src/multiple_user_peer2profit']
+requires = [
+]
+
+
+[tool.briefcase.app.multiple-user-peer2profit.macOS]
+requires = [
+    'toga-cocoa>=0.3.0.dev32',
+    'std-nslog==1.0.0'
+]
+
+[tool.briefcase.app.multiple-user-peer2profit.linux]
+requires = [
+    'toga-gtk>=0.3.0.dev32',
+]
+system_requires = [
+    'libgirepository1.0-dev',
+    'libcairo2-dev',
+    'libpango1.0-dev',
+    'libwebkitgtk-3.0-0',
+    'gir1.2-webkit-3.0',
+]
+
+[tool.briefcase.app.multiple-user-peer2profit.windows]
+requires = [
+    'toga-winforms>=0.3.0.dev32',
+]
+
+# Mobile deployments
+[tool.briefcase.app.multiple-user-peer2profit.iOS]
+requires = [
+    'toga-iOS>=0.3.0.dev32',
+    'std-nslog==1.0.0'
+]
+
+[tool.briefcase.app.multiple-user-peer2profit.android]
+requires = [
+    'toga-android>=0.3.0.dev32'
+]
