@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Briefcase-Version: 0.3.6
+Name: multiple-user-peer2profit
+Formal-Name: Multiple User Peer2Profit
+App-ID: com.vachanmn123.multiple-user-peer2profit.multiple-user-peer2profit
+Version: 0.0.1
+Home-page: https://github.com/vachanmn123/multiple-user-peer2profit
+Author: Vachan MN
+Author-email: vachanmn123@gmail.com
+Summary: Allow multiple users to use the same peer2profit account and reward them according to time spent
